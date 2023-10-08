@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VotingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvWard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ward : "
+            android:textSize="20sp"
+            android:gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/btnB1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B1" />
+
+        <Button
+            android:id="@+id/btnB2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B2" />
+
+        <Button
+            android:id="@+id/btnB3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B3" />
+
+        <Button
+            android:id="@+id/btnConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/tvResults"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:text="Show Results" />
+
+        <TextView
+            android:id="@+id/tvThank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="17sp"
+            android:visibility="invisible"
+            android:text="You have already voted. Thank you for voting!" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
